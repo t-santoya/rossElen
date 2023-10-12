@@ -1,0 +1,20 @@
+.mapa{
+    width: 100%;
+}
+.contactado{
+    position: relative;
+    display: inline-block;
+    margin-left: 120px;
+}
+.contacto{
+    display: flex;
+
+}
+.container mt-5 .contactado{
+flex: 1;
+}
+.container mt-5{
+}
+.container mt-5{
+    width: 400px;
+}

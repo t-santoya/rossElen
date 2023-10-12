@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgba(210, 217, 221, 0.672);
+}
+.nosotrossomos{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.imaglabora{
+    width: 100%;
+    height: 400px;
+}
+.textonosotros{
+    width:45%;
+    height: 600px;
+    position: absolute;
+    top: 40%; 
+    margin-left: 110px;
+}
+.historia{
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+.nuestrahistoria{
+    width:45%;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 110px;
+
+}
+.nuestrahistoria2{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 110px;
+}
+.primerasede, .talco, .planta{
+    flex: 1;
+    padding: 20px;
+}
+.ross{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 110px;
+
+}
+.nuevaimagen, .portafolio, .gelgreen{
+    flex: 1;
+    padding: 20px;
+}
+.fondoross{
+    background-color: rgb(232, 228, 232);
+}
+.orgullo{
+    display:flex;
+
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.cumplimos, .anos{
+    flex: 1;
+    justify-content:space-evenly;
+    margin-top: 100px;
+    margin-left: 110px;
+}
+.cumplimos{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    position: relative;
+    margin-top: -20px;
+}

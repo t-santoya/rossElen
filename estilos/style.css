@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #fcfbfb;
+}
+.navbar{
+    padding: 20px;
+    background-color: #f9f8f6;
+}
+.logo{
+    width: 60px;
+    position:relative;
+    left: 200px;
+}
+.navbar-nav{
+position: absolute;
+right: 200px;
+}
+.nav-link{
+    color: rgb(20, 19, 19);
+    font-size: 18px;
+}
+.nav-link:hover{
+    color: rgb(18, 236, 22);
+}
+.nav-item{
+    list-style: none;
+}
+.slider-box{
+    width: 1300px;
+    height: auto;
+    margin: 10px auto 0;
+    overflow: hidden;
+}
+.slider-box ul{
+    display: flex;
+    padding: 0;
+    width: 700%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+.slider-box li{
+    width: 100%;
+    position: relative;
+    list-style: none;
+}
+.slider-box .slider{
+    width: 100%;
+}
+@keyframes slide{
+    0%{margin-left: 0;}
+    7%{margin-left: 0;}
+
+    14%{margin-left: -100%;}
+    21%{margin-left:-100%;}
+
+    28%{margin-left:-200%;}
+    35%{margin-left: -200%;}
+
+    42%{margin-left:-300%;}
+    49%{margin-left: -300%;}
+
+    56%{margin-left:-400%;}
+    63%{margin-left: -400%;}
+    
+    70%{margin-left:-500%;}
+    77%{margin-left: -500%;}
+
+    85%{margin-left:-600%;}
+    100%{margin-left: -600%;}
+}
+.contenedor {
+    display: inline-flex;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.texto1 .imagenSenora {
+    flex: 1;
+    padding: 10px;
+}
+.texto1{
+    align-self: center;
+}
+.quienes{
+    margin-top: 50px;
+}
+.acercaNosotros{
+    border-radius: 50%;
+    padding: 10px;
+    border-style: none;
+    border-width: 6px;
+    background-color: rgb(181, 191, 191);
+    margin-left: 110px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.acercaNosotros:hover{
+    background-color: rgb(18, 236, 22);
+}
+.contenedor2{
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-bottom: 40px;
+} 
+.contenedor3 {
+    margin-left: 74px;
+    margin-right: 50px;
+    text-align: center;
+}
+.contproductos{
+    display:flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.conocer{
+    display: inline;
+    position: relative;
+    padding: 20px;
+}
+.fragancias{
+    width: 280px;
+    height: 277px;
+    padding: 10px;
+}
+.contenedor3 .contproductos .uno{
+    display: inline-block;
+    position:relative;
+    margin-top: 30px;
+}
+.contenedor3 .contproductos .dos{
+    display: inline-block;
+    position:relative;
+    margin-top: 20px;
+}
+.contenedor3 .contproductos .cuatro{
+    display: inline-block;
+    position:relative;
+    margin-top: 20px;
+}
+.contenedor3 .contproductos .tres{
+    display: inline-block;
+    position:relative;
+    margin-top: 30px;
+}
+.corporal{
+    width: 280px;
+    height: 277px;
+    padding: 10px;
+}
+.capilar{
+    width:280px;
+    height: 277px;
+    padding: 10px;
+}
+.dermo{
+    width: 280px;
+    height: 277px;
+    padding: 10px;
+}
+.tienda{
+    background-color: rgb(181, 191, 191);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.tienda:hover{
+    background-color: rgb(18, 236, 22);
+}
+.contenedor4 {
+    position: relative;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-bottom: 40px;
+}
+.contenecuatro{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.texto2 .green {
+    flex: 1;
+    padding: 10px;
+}
+.green{
+    width: 600px;
+    height: 300px;
+}
+.texto2{
+    align-self: center;
+    margin-top: 100px;
+    width: 600px;
+    height: 300px;
+}
+.conoce{
+    background-color: rgb(181, 191, 191);
+    position: absolute;
+    margin-top: -150px;
+}
+.conoce:hover{
+    background-color: rgb(18, 236, 22);
+}
+footer{
+    margin: 0;
+    text-align: center;
+    background-color: rgb(235, 232, 231);
+    padding: 20px;
+}
+.pieprincipal{
+    display:flex;
+    justify-content:space-around;
+    padding: 70px;
+}
+.catalogo{
+    width: 150px;
+}
+.invima{
+    width: 70px;
+    margin-left: 10px;
+}
+.elen{
+    width: 100px;
+}
+.pie{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
