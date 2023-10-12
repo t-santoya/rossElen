@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .mapa{
     width: 100%;
 }
@@ -8,13 +13,11 @@
 }
 .contacto{
     display: flex;
-
+    
 }
 .container mt-5 .contactado{
 flex: 1;
 }
-.container mt-5{
-}
-.container mt-5{
+.container mt-5 {
     width: 400px;
 }

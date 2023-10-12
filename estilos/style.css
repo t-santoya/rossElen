@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
     background-color: #fcfbfb;
@@ -195,7 +195,7 @@ right: 200px;
 .conoce{
     background-color: rgb(181, 191, 191);
     position: absolute;
-    margin-top: -150px;
+    margin-top: -100px;
 }
 .conoce:hover{
     background-color: rgb(18, 236, 22);
@@ -226,5 +226,18 @@ footer{
     flex-direction: column;
     justify-content: space-evenly;
 }
-
+.conoce{
+    border-radius: 50%;
+    padding: 10px;
+    border-style: none;
+    border-width: 6px;
+    background-color: rgb(181, 191, 191);
+}
+.tienda{
+    border-radius: 50%;
+    padding: 10px;
+    border-style: none;
+    border-width: 6px;
+    background-color: rgb(181, 191, 191);
+}
 

@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
     background-color: rgba(210, 217, 221, 0.672);
@@ -77,4 +77,38 @@ body{
     padding-bottom: 50px;
     position: relative;
     margin-top: -20px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    }
+    th,td{
+    border: solid 1px rgb(235, 157, 210);
+    padding: 30px;
+}
+tr > th{
+    background-color: rgb(202, 188, 189)
+}
+
+
+tbody>tr:hover{
+    background-color: rgb(234, 203, 212);
+}
+input[type="number"] {
+    width: 50px;
+    text-align: center;
+}
+.enviarpedido{
+    display: block;
+    margin: auto;
+    margin-right: 110px;
+    float: right;
+    border-radius: 50%;
+    padding: 10px;
+    border-style: none;
+    border-width: 6px;
+    background-color: rgb(181, 191, 191);
+}
+.enviarpedido:hover{
+    background-color: rgb(18, 236, 22);
 }
