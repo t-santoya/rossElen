@@ -21,3 +21,6 @@ flex: 1;
 .container mt-5 {
     width: 400px;
 }
+.errorInput{
+    border: 3px dashed orange;
+}

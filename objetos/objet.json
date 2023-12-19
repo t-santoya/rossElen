@@ -1,0 +1,32 @@
+
+{
+    "tarjetas":[
+        {
+            "imagen":"./imagenes/splash.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/quemagrasa.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/argan.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/dermaW.png",
+            "titulo":"Dermocosmetico"
+
+        }
+    ]
+}
+
+
+
+
+
+
+

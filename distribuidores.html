@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Distribuidores-Ross D´Elen</title>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<link rel="stylesheet" href="./estilos/style.css">
-<link rel="stylesheet" href="./estilos/distribuidores.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="stylesheet" href="./estilos/distribuidores.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark ">
-            <a href="index.html" class="navbar-brand"><img src="./imagenes/logo2.png" width="30px" alt="logo" class="logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a href="index.html" class="navbar-brand"><img src="./imagenes/logo2.png" width="30px" alt="logo"
+                    class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -23,7 +29,8 @@
                     <li class="nav-item"><a href="marcasPropias.html" class="nav-link">Marcas propias</a></li>
                     <li class="nav-item"><a href="distribuidores.html" class="nav-link">Distribuidores</a></li>
                     <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
-                    <li class="nav-item"><a href="whatsapp://send?phone=573155473357" class="nav-link"><img src="./imagenes/whatsapp.png" alt="Whatsapp" width="30px"></a></li>
+                    <li class="nav-item"><a href="whatsapp://send?phone=573155473357" class="nav-link"><img
+                                src="./imagenes/whatsapp.png" alt="Whatsapp" width="30px"></a></li>
                 </ul>
             </div>
         </nav>
@@ -33,7 +40,8 @@
             <div class="cajabode"><img src="./imagenes/cajas.png" alt="Cajas" class="cajas"></div>
             <div class="textdistri">
                 <h2>Distribuidores</h2>
-                <p>Únete a nosotros, conviértete en distribuidor de Ross D’Elen es muy ¡fácil! No necesitas tener una tienda física para ser parte del negocio, solo necesitas tener actitud y amar nuestros productos.
+                <p>Únete a nosotros, conviértete en distribuidor de Ross D’Elen es muy ¡fácil! No necesitas tener una
+                    tienda física para ser parte del negocio, solo necesitas tener actitud y amar nuestros productos.
 
                 </p>
             </div>
@@ -42,67 +50,79 @@
     <section class="distribuidor">
         <div class="distribuidor2">
             <article>
-            <div class="textodospasos">
-                <h3>Lógralo en solo 2 pasos</h3>
-                <p>1. Registra tus datos
-                    2. Confirmaremos tu solicitud en máximo 24 horas
-                    
-                    Si tienes alguna inquietud adicional no dudes en contactarnos al correo info@rossdelen.com, o al celular 314 591 6988.</p>
-            </div>
-            <div>
-                <img src="./imagenes/green.png" alt="Gel" class="verde">
-            </div>
-        </article>
+                <div class="textodospasos">
+                    <h3>Lógralo en solo 2 pasos</h3>
+                    <p>1. Registra tus datos
+                        2. Confirmaremos tu solicitud en máximo 24 horas
 
-            <div class="containerform">
-                <h2>Registro</h2>
-                <form>
-                    <div class="mb-3">
-                        <label for="nombre" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
-                    </div>
-                    <div class="mb-3">
-                        <label for="apellido" class="form-label">apellido</label>
-                        <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu apellido">
-                    </div>
-                    <div class="mb-3">
-                        <div class="mb-3">
+                        Si tienes alguna inquietud adicional no dudes en contactarnos al correo info@rossdelen.com, o al
+                        celular 314 591 6988.</p>
+                </div>
+                <div class="imagenVerde">
+                    <img src="./imagenes/green.png" alt="Gel" class="verde">
+                </div>
+            </article>
+
+            <div class="container-formulario">
+                <div class="formulario2">
+                    <h2>Registro</h2>
+                    <form id="form-registro" class="registro">
+                        <div class="form-nombre">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                            <span id="nombre-error" class="form-error"></span>
+                        </div>
+                        <div class="form-apellido">
+                            <label for="apellido" class="form-label">apellido</label>
+                            <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido">
+                            <span id="apellido-error" class="form-error"></span>
+                        </div>
+                        <div class="form-ciudad">
                             <label for="ciudad" class="form-label">ciudad </label>
                             <input type="ciudad" class="form-control" id="ciudad" placeholder="ciudad">
+                            <span id="ciudad-error" class="form-error"></span>
                         </div>
-                        <label for="email" class="form-label">Correo Electrónico</label>
-                        <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="contraseña" class="form-label">Contraseña</label>
-                        <input type="password" class="form-control" id="contraseña">
-                    </div>
-                    <button type="submit" class="btn btn-primary">ENVIAR</button>
-                </form>
+                        <div class="form-correo">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+                            <span id="correo-error" class="form-error"></span>
+                        </div>
+                        <div class="form-clave">
+                            <label for="clave" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="clave">
+                            <span id="clave-error" class="form-error"></span>
+                        </div>
+                        <div class="form-enviar">
+                            <button type="submit" class="boton-enviar" id="enviar">ENVIAR</button>
+                            <span id="enviar-error" class="form-error"></span>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
     <section class="contenedor3">
         <h2 class="conocer">Conoce nuestros productos</h2>
-        <div class="contproductos">
-            <div class="producto">
-                <img src="./imagenes/splash.png" alt="slpash" class="fragancias">
+        <div class="contproductos" id="listaProductos">
+            <!-- <div class="producto">
+                <img src="./imagenes/splash.png" alt="slpash" class="fragancias" onmouseover="capturar()">
                 <span class="uno">Fragancias</span>
             </div>
             <div class="producto">
-                <img src="./imagenes/quemagrasa.png" alt="quemagrasa"  class="corporal">
+                <img src="./imagenes/quemagrasa.png" alt="quemagrasa" class="corporal" onmousemove="capturaMove()">
                 <span class="dos">Corporal</span>
             </div>
             <div class="producto">
-                <img src="./imagenes/argan.png" alt="argan"  class="capilar">
+                <img src="./imagenes/argan.png" alt="argan" class="capilar">
                 <span class="tres">Capilar</span>
             </div>
             <div class="producto">
-                <img src="./imagenes/dermaW.png" alt="crema"  class="dermo">
+                <img src="./imagenes/dermaW.png" alt="crema" class="dermo">
                 <span class="cuatro">Dermocosmético</span>
-            </div>
+            </div> -->
         </div>
-        <a href="productos.html"><button class="tienda">VER TIENDA ONLINE</button></a>
+        <a href="productos.html"><button class="tienda"  onkeypress="presionar()">VER TIENDA ONLINE</button></a>
+    
     </section>
     <footer>
         <div class="pieprincipal">
@@ -112,22 +132,44 @@
             </div>
             <div>
                 <h3>Siguenos en nuestras redes</h3>
-                <div><a href="whatsapp://send?phone=573155473357" class=""><img src="./imagenes/whatsapp.png" alt="Whatsapp" width="30px"></a></div>
-                <div><a href="https://twitter.com/?lang=es"target="_blank"><img src="./imagenes/twiter.png" alt="twitter"></a></div>
-                <div><a href="https://www.instagram.com/"target="_blank"><img src="./imagenes/instagram.png" alt="Instagram"></a></div>
+                <div><a href="whatsapp://send?phone=573155473357" class=""><img src="./imagenes/whatsapp.png"
+                            alt="Whatsapp" width="30px"></a></div>
+                <div><a href="https://twitter.com/?lang=es" target="_blank"><img src="./imagenes/twiter.png"
+                            alt="twitter"></a></div>
+                <div><a href="https://www.instagram.com/" target="_blank"><img src="./imagenes/instagram.png"
+                            alt="Instagram"></a></div>
             </div>
             <div>
                 <h3>Ayuda</h3>
                 <p>Preguntas frecuentes
-                Términos y condiciones</p>
+                    Términos y condiciones</p>
             </div>
             <div>
                 <h3>Catálogo</h3>
-                <a href="https://www.rossdelen.com/wp-content/uploads/2023/04/Portafolio-2023.pdf" target="_blank"><img src="./imagenes/catalogo.png" alt="Catalogo" class="catalogo"></a>
+                <a href="https://www.rossdelen.com/wp-content/uploads/2023/04/Portafolio-2023.pdf" target="_blank"><img
+                        src="./imagenes/catalogo.png" alt="Catalogo" class="catalogo"></a>
             </div>
         </div>
-            <p>Ross D'Elen © 2019 | Todos los derechos reservados Desarrollado por e-me.co</p>
+        <p>Ross D'Elen © 2019 | Todos los derechos reservados Desarrollado por e-me.co</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./script/index.js"></script>
+    <script src="./script/distriRegistro.js"></script>
+    <script>
+        // aqui le colocamos el nombre de nuestra clase
+        // y se  le pasa este valor ("form-registro")
+        const registro = new validarRegistro("form-registro");
+    </script>
+    <!-- aqui ya estamos utilizando la clase -->
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>

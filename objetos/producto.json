@@ -1,0 +1,430 @@
+
+{
+    "tarjetas":[
+        {
+            "imagen":"./imagenes/producto1.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/producto2.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/producto3.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/producto4.png",
+            "titulo":"Dermocosmetico"
+
+        },
+        {
+            "imagen":"./imagenes/producto5.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/producto6.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/producto7.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/producto8.png",
+            "titulo":"Dermocosmetico"
+
+        },
+        {
+            "imagen":"./imagenes/producto9.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/producto10.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/producto11.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/producto12.png",
+            "titulo":"Dermocosmetico"
+
+        },
+        {
+            "imagen":"./imagenes/producto1.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/producto2.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/producto3.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/producto4.png",
+            "titulo":"Dermocosmetico"
+
+        },
+        {
+            "imagen":"./imagenes/producto1.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/producto2.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/producto3.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/producto4.png",
+            "titulo":"Dermocosmetico"
+
+        },
+        {
+            "imagen":"./imagenes/producto1.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/producto2.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/producto3.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/producto4.png",
+            "titulo":"Dermocosmetico"
+
+        },
+        {
+            "imagen":"./imagenes/producto1.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/producto2.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/producto3.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/producto4.png",
+            "titulo":"Dermocosmetico"
+
+        },
+        {
+            "imagen":"./imagenes/producto1.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/producto2.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/producto3.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/producto4.png",
+            "titulo":"Dermocosmetico"
+
+        },
+        {
+            "imagen":"./imagenes/producto1.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/producto2.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/producto3.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/producto4.png",
+            "titulo":"Dermocosmetico"
+
+        },
+        {
+            "imagen":"./imagenes/producto1.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/producto2.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/producto3.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/producto4.png",
+            "titulo":"Dermocosmetico"
+
+        },
+        {
+            "imagen":"./imagenes/producto1.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/producto2.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/producto3.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/producto4.png",
+            "titulo":"Dermocosmetico"
+
+        },
+        {
+            "imagen":"./imagenes/producto1.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/producto2.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/producto3.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/producto4.png",
+            "titulo":"Dermocosmetico"
+
+        },
+        {
+            "imagen":"./imagenes/producto1.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/producto2.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/producto3.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/producto4.png",
+            "titulo":"Dermocosmetico"
+
+        },
+        {
+            "imagen":"./imagenes/producto1.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/producto2.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/producto3.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/producto4.png",
+            "titulo":"Dermocosmetico"
+
+        },
+        {
+            "imagen":"./imagenes/producto1.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/producto2.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/producto3.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/producto4.png",
+            "titulo":"Dermocosmetico"
+
+        },
+        {
+            "imagen":"./imagenes/producto1.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/producto2.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/producto3.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/producto4.png",
+            "titulo":"Dermocosmetico"
+
+        },
+        {
+            "imagen":"./imagenes/producto1.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/producto2.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/producto3.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/producto4.png",
+            "titulo":"Dermocosmetico"
+
+        },
+        {
+            "imagen":"./imagenes/producto1.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/producto2.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/producto3.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/producto4.png",
+            "titulo":"Dermocosmetico"
+
+        },
+        {
+            "imagen":"./imagenes/producto1.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/producto2.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/producto3.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/producto4.png",
+            "titulo":"Dermocosmetico"
+
+        },
+        {
+            "imagen":"./imagenes/producto1.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/producto2.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/producto3.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/producto4.png",
+            "titulo":"Dermocosmetico"
+
+        },
+        {
+            "imagen":"./imagenes/producto1.png",
+            "titulo":"fragancias"
+
+        },
+        {
+            "imagen":"./imagenes/producto2.png",
+            "titulo":"Corporal"
+
+        },
+        {
+            "imagen":"./imagenes/producto3.png",
+            "titulo":"Capilar"
+
+        },
+        {
+            "imagen":"./imagenes/producto4.png",
+            "titulo":"Dermocosmetico"
+
+        }
+    ]
+}
+
+
+
+
+

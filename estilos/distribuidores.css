@@ -5,6 +5,7 @@
 }
 body{
     background-color: rgba(240, 241, 245, 0.672);
+    overflow-x: hidden;
 }
 .cajas{
     width: 100%; 
@@ -26,47 +27,79 @@ body{
     position: relative;
     width:100%;
     margin-top: 50px;
-    margin-left: 110px;
-    margin-right: 110px; 
+    padding-bottom: 80px;
 }
 article{
+    width: 50%;
     position: relative;
-    margin-left: 90px;
+    margin-right: 20px;
 }
 .textodospasos{
+    margin-left: 110px;
+    width: 100%;
     display: inline-block;
-    width: 500px;
+    width: 50%;
     height: 200px;
 }
+.imagenVerde{
+    margin-left: 110px;
+    width: 50%;
+    position: relative;
+}
 .verde{
-    width: 500px;
+    width: 100%;
     height: 300px;
 }
 .textodospasos .verde{
     flex: 1;
 }
-.containerform{
-    width: 500px;
-    position:absolute;
-    margin-left: 700px;
+.container-formulario{
+    width: 50%;
+    position:relative;
+    margin-left: 750px;
     margin-top: -500px;
+    height: 100%;
 }
-.flechas{
-    width: 90px;
+.formulario2{
+    width: 100%;
+height: 100%;
 }
-.tienda:hover{
-    background-color: rgb(18, 236, 22);
+.registro{
+    width: 80%;
+    height: auto;
 }
-.pedido{
-    margin-right: 110px;
-    float: right;
-    border-radius: 50%;
-    padding: 10px;
+.inp-error{
+    border: 2px dashed rgb(73, 144, 182);
+}
+.form-enviar{
+padding-top: 10px;
+}
+.boton-enviar{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(0, 162, 255);
+    color: blue;
     border-style: none;
-    border-width: 6px;
-    background-color: rgb(181, 191, 191);
 }
-.pedido:hover{
-    background-color: rgb(18, 236, 22);
+.boton-enviar:hover{
+    background-color: rgb(55, 108, 194);
+    color: aqua;
 }
 
+.contproductos{
+    width: 100%;
+}
+.conte3{
+width: 100%;
+}
+.contprod{
+    
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+    justify-content: space-between; 
+}
+.contprod div {
+    
+    width: calc(25% - 10px); /* Ajusta el ancho para que haya 4 elementos por fila */
+    margin-bottom: 20px; 
+}
